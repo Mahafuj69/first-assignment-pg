@@ -16,6 +16,7 @@
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 
@@ -28,8 +29,8 @@
  }
 
 .nav-title{
-    font-weight: 700px;
-    font-size: 50px;
+    font-weight: 400px;
+    font-size: 40px;
     color: rgba(68, 68, 255, 0.983);
 }
 
@@ -44,5 +45,32 @@ nav ul li{
 
 .header{
   background-image: url(../images/Hero-bg.png);
+height:400px;
+}
+/* Banner styles */
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 75px;
 }
 
+
+.banner-title{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.banner-Description{
+
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: rgba(146, 144, 145, 0.694);
+}
+.banner-img{
+  margin-top: 50px;
+border-radius: 48px;
+width: 300px;
+height: 250px;
+}
