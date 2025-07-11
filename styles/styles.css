@@ -9,7 +9,7 @@
 }
  /* Shared style */
 
-.btn-Primary{
+ .btn-Primary{
   background-color: rgba(68, 68, 255, 0.983);
   font-weight: bold;
   color: white;
@@ -17,6 +17,10 @@
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 10px;
+}
+
+.btn-Primary:hover {
+  background-color: #1bdbd4;
 }
 
 
@@ -125,7 +129,9 @@ h2 {
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   padding: 20px;
   width: 300px;
+  margin: 0 15px;
   text-align: left;
+  align-items: center;
 }
 
 .stars {
@@ -167,3 +173,100 @@ h2 {
   font-size: 13px;
   color: #777;
 }
+
+
+.contact-section {
+  background-color: #fff;
+  padding: 60px 40px;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-left h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 100%;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer h1 {
+  font-size: 54px;
+  margin-bottom: 10px;
+  color:  rgba(68, 68, 255, 0.983);
+}
+
+.footer p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.footer .more {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer .more ul {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .more li {
+  list-style: none;
+}
+
+.footer .more a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
