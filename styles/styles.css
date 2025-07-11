@@ -110,6 +110,7 @@ height: 250px;
   width: 250px;
    color: rgba(68, 68, 255, 0.983);
 }
+/* cards styles */
 
 h2 {
   font-size: 35px;
@@ -174,7 +175,7 @@ h2 {
   color: #777;
 }
 
-
+/* from testimonials styles */
 .contact-section {
   background-color: #fff;
   padding: 60px 40px;
@@ -231,6 +232,7 @@ textarea {
   resize: vertical;
 }
 
+/* Footer styles */
 .footer {
   background-color: #f8f8f8;
   padding: 40px 0;
